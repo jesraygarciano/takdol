@@ -60,6 +60,27 @@ export default {
   top: 0.3em;
 }
 
+.eye{
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.eye::after{ /*white shadow*/
+  --pupil-size : 0.2em;
+  position: absolute;
+  top: 0.05em;
+  left: 0.3em;
+  width: var(--pupil-size);
+  height: var(--pupil-size);
+  background: white;
+  border-radius: 50%;
+  content: " ";
+}
 // h3 {
 //   margin: 40px 0 0;
 // }
