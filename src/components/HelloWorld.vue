@@ -49,6 +49,16 @@ export default {
   border-radius: 0.5em 0.5en 0.5em 0.5em / 0.6em 0.6em 0.4em 0.4em;
   box-shadow: 0.03em 0.14em rgba(0,0,0,0.1);
 }
+.eyes {
+  text-align: center;
+  display: flex;
+  font-size: 0.65em;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0.25em;
+  top: 0.3em;
+}
 
 // h3 {
 //   margin: 40px 0 0;
