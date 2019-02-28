@@ -29,20 +29,20 @@ export default {
 
   // });
 
-  name: 'HelloWorld',
-  data: {
-    ufo : document.querySelector('.ufo')
-  },
-  methods: {
-    monstah : (e) => {
-      let eye = document.querySelector('.eyes');
-      let mouseX = (eye.getBoundingClientRect().left);
-      let mouseY = (eye.getBoundingClientRect().top);
-      let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
-      let rotationDegrees = (radianDegrees * (180/Math.PI) * -1) + 180;
-      eyes.style.transform = `rotate(${rotationDegrees}deg`
-    }
-  },
+  // name: 'HelloWorld',
+  // data: {
+  //   ufo : document.querySelector('.ufo')
+  // },
+  // methods: {
+  //   monstah : (e) => {
+  //     let eye = document.querySelector('.eyes');
+  //     let mouseX = (eye.getBoundingClientRect().left);
+  //     let mouseY = (eye.getBoundingClientRect().top);
+  //     let radianDegrees = Math.atan2(e.pageX - mouseX, e.pageY - mouseY);
+  //     let rotationDegrees = (radianDegrees * (180/Math.PI) * -1) + 180;
+  //     eyes.style.transform = `rotate(${rotationDegrees}deg`
+  //   }
+  // },
 
   props: {
     msg: String
